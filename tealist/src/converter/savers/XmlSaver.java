@@ -1,7 +1,6 @@
-package tealist;
+package converter.savers;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.List;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -15,13 +14,11 @@ import javax.xml.transform.stream.StreamResult;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+
+import tealist.Tea;
 
 
 public class XmlSaver implements Saver {
-
-	public XmlSaver() { }
 	
 	/** 
 	 * {@inheritDoc}

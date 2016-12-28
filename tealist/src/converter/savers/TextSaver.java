@@ -1,17 +1,16 @@
-package tealist;
+package converter.savers;
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.List;
 
+import tealist.Tea;
+
 public class TextSaver implements Saver {
 
-	public TextSaver() { }
 
-	
 	/**
 	 * {@inheritDoc}
 	 */

@@ -1,14 +1,10 @@
 package tealist;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import tealist.Reader;
-import tealist.TextReader;
-import tealist.XmlReader;
+import converter.Converter;
 
 /**
  * Handles parsing of options and conversion between different files 
@@ -18,9 +14,8 @@ import tealist.XmlReader;
  */
 public class TeaList 
 {	
-	private Reader reader;
-	private Saver saver;
-	
+	private Converter converter;
+
 	/**
 	 * Constructs a TeaList
 	 */
@@ -238,47 +233,14 @@ public class TeaList
 	 */
 	private void convertFile(Map<Options, String> options) throws Exception 
 	{
-	
-		
-	//	FileIO fileIO = new FileIO();
-		List<Tea> teaList = new ArrayList<Tea>();		
-		
+				
 		String inFileName = options.get(Options.INPUT_FILE);
 		String inFileFormat = options.get(Options.FROM_FILE_FORMAT);
 		String outFileFormat = options.get(Options.TO_FILE_FORMAT);
 		String outFileName = options.get(Options.OUTPUT_FILE);
 		
-		if(FileFormats.TEXT.equals(inFileFormat))
-		{
-			reader = new TextReader();
-
-		}
-		else if(FileFormats.XML.equals(inFileFormat))
-		{
-			reader = new XmlReader();
-		}
-		else
-		{
-			throw new Exception("Unknown input file format: " + inFileFormat);
-		}
-		
-		teaList = reader.readFile(inFileName); 
-
-		
-		if(FileFormats.TEXT.equals(outFileFormat))
-		{
-			saver = new TextSaver();
-		}
-		else if(FileFormats.XML.equals(outFileFormat))
-		{
-			saver = new XmlSaver();
-		}
-		else
-		{
-			throw new Exception("Unknown output file format: " + outFileFormat);
-		}
-		
-		saver.writeFile(teaList, outFileName);
+		converter = new Converter(inFileName, inFileFormat, outFileFormat, outFileName);
+		converter.convert();
 
 	}	
 }

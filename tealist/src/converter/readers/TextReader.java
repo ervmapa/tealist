@@ -1,4 +1,4 @@
-package tealist;
+package converter.readers;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -8,13 +8,10 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+import tealist.Tea;
+
 public class TextReader implements Reader {
 
-	/**
-	 * Constructs a TextReader object 
-	 */
-	public TextReader() { }
-	
 	/**
 	 * {@inheritDoc}
 	 */
@@ -23,7 +20,6 @@ public class TextReader implements Reader {
 		List<Tea> teaList = new ArrayList<Tea>();
 
 		File file = new File(fileName);
-
 		if(!file.exists() || !file.isFile())
 		{
 			throw new IOException("The file " + fileName +  " does not exist");

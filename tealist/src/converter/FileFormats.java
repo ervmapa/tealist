@@ -1,4 +1,4 @@
-package tealist;
+package converter;
 
 /**
  * Enumeration for supported file formats.

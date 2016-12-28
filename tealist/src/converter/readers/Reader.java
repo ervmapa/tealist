@@ -1,7 +1,9 @@
-package tealist;
+package converter.readers;
 
 import java.io.IOException;
 import java.util.List;
+
+import tealist.Tea;
 
 public interface Reader {
 	
