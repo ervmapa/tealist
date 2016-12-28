@@ -240,7 +240,7 @@ public class TeaList
 	{
 	
 		
-		FileIO fileIO = new FileIO();
+	//	FileIO fileIO = new FileIO();
 		List<Tea> teaList = new ArrayList<Tea>();		
 		
 		String inFileName = options.get(Options.INPUT_FILE);
@@ -250,40 +250,35 @@ public class TeaList
 		
 		if(FileFormats.TEXT.equals(inFileFormat))
 		{
-//			teaList = fileIO.readTextFile(inFileName);
 			reader = new TextReader();
-			teaList = reader.readFile(inFileName);
 
 		}
 		else if(FileFormats.XML.equals(inFileFormat))
 		{
-//			teaList = fileIO.readXmlFile(inFileName);
 			reader = new XmlReader();
-			teaList = reader.readFile(inFileName);
-
 		}
 		else
 		{
 			throw new Exception("Unknown input file format: " + inFileFormat);
 		}
 		
+		teaList = reader.readFile(inFileName); 
+
+		
 		if(FileFormats.TEXT.equals(outFileFormat))
 		{
-			//fileIO.writeTextFile(teaList, outFileName);
 			saver = new TextSaver();
-			saver.writeFile(teaList, outFileName);
 		}
 		else if(FileFormats.XML.equals(outFileFormat))
 		{
-	//		fileIO.writeXmlFile(teaList, outFileName);
 			saver = new XmlSaver();
-			saver.writeFile(teaList, outFileName);
-
-
 		}
 		else
 		{
 			throw new Exception("Unknown output file format: " + outFileFormat);
 		}
+		
+		saver.writeFile(teaList, outFileName);
+
 	}	
 }
