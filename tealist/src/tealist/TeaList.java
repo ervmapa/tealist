@@ -6,6 +6,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import tealist.Reader;
+import tealist.TextReader;
+import tealist.XmlReader;
 
 /**
  * Handles parsing of options and conversion between different files 
@@ -15,6 +18,9 @@ import java.util.Set;
  */
 public class TeaList 
 {	
+	private Reader reader;
+	private Saver saver;
+	
 	/**
 	 * Constructs a TeaList
 	 */
@@ -232,6 +238,8 @@ public class TeaList
 	 */
 	private void convertFile(Map<Options, String> options) throws Exception 
 	{
+	
+		
 		FileIO fileIO = new FileIO();
 		List<Tea> teaList = new ArrayList<Tea>();		
 		
@@ -242,11 +250,17 @@ public class TeaList
 		
 		if(FileFormats.TEXT.equals(inFileFormat))
 		{
-			teaList = fileIO.readTextFile(inFileName);
+//			teaList = fileIO.readTextFile(inFileName);
+			reader = new TextReader();
+			teaList = reader.readFile(inFileName);
+
 		}
 		else if(FileFormats.XML.equals(inFileFormat))
 		{
-			teaList = fileIO.readXmlFile(inFileName);
+//			teaList = fileIO.readXmlFile(inFileName);
+			reader = new XmlReader();
+			teaList = reader.readFile(inFileName);
+
 		}
 		else
 		{
@@ -255,11 +269,17 @@ public class TeaList
 		
 		if(FileFormats.TEXT.equals(outFileFormat))
 		{
-			fileIO.writeTextFile(teaList, outFileName);
+			//fileIO.writeTextFile(teaList, outFileName);
+			saver = new TextSaver();
+			saver.writeFile(teaList, outFileName);
 		}
 		else if(FileFormats.XML.equals(outFileFormat))
 		{
-			fileIO.writeXmlFile(teaList, outFileName);
+	//		fileIO.writeXmlFile(teaList, outFileName);
+			saver = new XmlSaver();
+			saver.writeFile(teaList, outFileName);
+
+
 		}
 		else
 		{
