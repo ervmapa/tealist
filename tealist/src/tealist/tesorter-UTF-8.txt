@@ -1,0 +1,110 @@
+﻿Kränkus blandningar;Earl Grey Cream;22;Ett lite sötare te med Earl Grey som bas.
+Kränkus blandningar;Svinhusblandning;22;Doftar inte svin. Välsmakande mustig citrus.
+Kränkus blandningar;Honungste;22;Kränkus bi-produkt med doft av honung och smak av nektar.
+Kränkus blandningar;S:ta Maria blandning;22;Ett klassiskt te med en fin balans mellan citrus och kryddor.
+Kränkus blandningar;Tjelvarblandning;22;Teet har en doft av sol och sommar. Smaken är lika förförisk som vår sommarö. Fruktig.
+Kränkus blandningar;Te-Jaken;22;Lika exotisk som urguten själv. En lite sötsyrlig sort som blivit mångas favorit.
+Kränkus blandningar;Sylves lilla gröna;22;Vår egen gröna blandning med fruktbitar. God och nyttig.
+Kränkus blandningar;Idas blandning;22;Ida är Jakens hustru. Exotisk, färggrann och äventyrlig. Frisk citrus.
+Kränkus blandningar;Stenhuggarblandning;22;-
+Kränkus blandningar;Gotländskt äppelkakste;22;Påminner om smaken av den traditionella äppelkakan som ofta förkommer på Gotland.
+Kränkus blandningar;S:t Hanskvartersblandning;22;För våra vackra kvarter i världsarvstaden Visby. Svart-grönt te med vår- och sommarsmaker. Fruktig.
+Kränkus blandningar;Farmor Huldas blandning;22;Vårt senaste tillskott i raden av egna blandningar. Ett klassiskt te med utpräglad citrussmak. Tillägnad teblandarens farmor.
+Kränkus blandningar;Hansablandning;22;För tankarna till medeltiden. Mustig och bärig.
+Kränkus blandningar;Guteblandning;22;Guteblandningen föddes en vårdag 1978 då vi nyss öppnat vår tebutik Kränku i Visby. Den är den första och den mest omtyckta av våra specialblandningar. Den är kungen bland våra tesorter. Smaken är frisk, fyllig och mild, så blir det när man blandar sex olika sorter till en. Om du inte smakat den än, är det ett måste.
+Kränkus blandningar;Munkte;22;Inspirerad av dofterna i klosterträdgården. Örtrik och söt.
+Kränkus blandningar;Källingblandning;22;Mustig och bastant med båda fötterna på jorden. Lite rökt.
+Kränkus blandningar;Vikingablandning;22;Mustigt te med frukter och bär för riktiga vikingar. Skapad Vikingaåret 2005.
+Kränkus blandningar;Vardesblandning;22;Förgyll morgonen med en fräsch kopp milt och fylligt vardagste.
+Kränkus blandningar;Krusmyntas te;22;Vår hyllning till Krusmyntagården. Påminner om mammas bullar. Lätt kryddad.
+Kränkus blandningar;Kotteblandning;22;Skapad i samband med att igelkotten blev vårt landskapsdjur 1988. En annorlunda smaksammansättning med inslag av citrus.
+Kränkus blandningar;Kärlekste från Gotland;22;En passionerad blandning av frukter och bär. Söt och smakrik. En perfekt gåva till nära och kära.
+Kränkus blandningar;Gotländsk sommarblandning;22;En smak av gotländsk sommar hela året. Doft- och smakrik. Fruktig med viss sötma.
+Kränkus blandningar;Ringmursblandning;22;För tankarna till vårt vackra Visby. Smakfull, kraftfull och hemlighetsfull.
+Kränkus blandningar;Kalkstensdrömmar;22;Doften är drömmen om Gotland, det riktigt genuina och mystiska. Frisk och lite söt.
+Blandningar;Höstglöd;24;Innehåller bl a äppelbitar, kanel, mandel och vanilj.
+Blandningar;Samurai;24;Innehåller bl a svart vinbär, malva och bergamott.
+Blandningar;Lyckliga stunder;24;Innehåller bl a persika och apelsinblommor.
+Blandningar;Rabarbergrädde;24;Spännande smak av rabarberbitar och grädde.
+Blandningar;Sir Williams;25;Från Sibyllans kaffe & tehandel. Gjord av sju kinesiska sorter.
+Blandningar;Österns blandning;22;Innehåller bl a kokos, ros och ringblomma.
+Blandningar;Orientalisk;22;Innehåller bl a malva, kardemumma, kanel och apelsinskal.
+Blandningar;Earl Grey;22;Planters special - En klassiker från Sibyllans anrika kaffe- och tehandel i Stockholm. Smaksatt med bergamott.
+Blandningar;Tropicana;20;Innehåller bl a malva, mango och ros.
+Blandningar;Bora Bora;24;Ett smakrikt te med tropiska frukter, bl a passionsfrukt.
+Blandningar;Vinter;20;Innehåller bl a kryddnejlika, mandel och apelsinskal.
+Blandningar;Earl Grey blå blom;22;Smaksatt med bergamott och avrundat med blå malvablommor.
+Blandningar;Earl Grey Royal;24;Smaksatt med bergamott och kompletterad med rött sandelträ och apelsinskal.
+Blandningar;Glögg;20;Kraftig kryddsmak.
+Blandningar;Chai te;30;Mycket kraftig smak av kryddor, bl a kanel, ingefära, kardemumma och kryddnejlika. Dricks gärna med het mjölk och socker.
+Blandningar;Godiste;24;Te med utpräglad godissmak. Fråga efter aktuell sort.
+Blandningar;Stormvarning;24;Innehåller bl a apelsinskal, kryddnejlika, äppel, kanel och vaniljbitar.
+Smaksatt svart;Aprikos;20;Med blommor och skalolja.
+Smaksatt svart;Kanel;20;Med kanelbitar.
+Smaksatt svart;Blåbär;20;Med blad och bär.
+Smaksatt svart;Passionsfrukt;20;Med blommor.
+Smaksatt svart;Apelsin;20;Med skal och kallpressad skalolja.
+Smaksatt svart;Lapsang Formosa;30;Kraftigt rökt te.
+Smaksatt svart;Lapsang Kina;25;Rökt te.
+Smaksatt svart;Mango;20;Med smak av mango.
+Smaksatt svart;Kiwi;20;Stark smak av kiwi.
+Smaksatt svart;Körsbär;20;Smaksatt med hela körsbär där kärnorna ger "mandelsmak".
+Smaksatt svart;Äppel;20;Med torkade äppelbitar.
+Smaksatt svart;Apelsinblom;20;Med blommor och kallpressad skalolja.
+Smaksatt svart;Grapefrukt;20;Med skal och kallpressad skalolja.
+Smaksatt svart;Svart vinbär;20;Innehåller bär och blad.
+Smaksatt svart;Smultron;20;Med bär och blad.
+Smaksatt svart;Citron;20;Med skal och kallpressad skalolja.
+Smaksatt svart;Spice krydd;20;Kryddstarkt te med bl a kryddnejlika, kanel och apelsinskal.
+Smaksatt svart;Svart pepparmint;20;Med pepparmintsolja.
+Smaksatt svart;Jordgubb;20;Med blad och bärbitar.
+Smaksatt svart;Jordgubbsgrädde;22;Te från Sri Lanka och Kina med jordgubbsbitar, jordgubbsblad och smak av grädde.
+Smaksatt svart;Vanilj;25;Innehåller bitar av äkta vanlij.
+Smaksatt svart;Fläderblom;20;Innehåller fläderblommor.
+Smaksatt svart;Rom;20;Smaksatt med romessens.
+Smaksatt svart;Pernod;20;Smaksatt med den franska lakritssmakande aperitifen.
+Rent svart;Yunnan;22;Kraftigt te från provinsen Yunnan i Kina.
+Rent svart;Ryskt;16;Grusinian - Te som bl a används till tesamovarer. Bör dra 8 - 10 min och blir då en kraftig brygd som späds med hett vatten.
+Rent svart;Formosa Oolong;30;Halvgrönt (delvis jäst) storbladigt te från Taiwan. Mycket mild smak.
+Rent svart;Darjeeling TGFOP (teinfritt);40;Högkvalitativt Indiskt te, dessutom teinfritt = koffeinfritt.
+Rent svart;Darjeeling BOP;26;Finbladigt Indiskt höglandste. Milt men ändå smakrikt.
+Rent svart;Ekologiskt;28;Från södra Indien.
+Rent svart;Darjeeling TGFOP;30;Te av hög kvalité från Himalayas sluttningar i Indien. Innehåller stora blad och stor andel bladknoppar. Milt, karaktäristiskt och smakrikt.
+Rent svart;China Black;20;Kinesisk te med neutral smak.
+Rent svart;Assam TGFOP;22;Te av hög kvalité med stora blad och stor andel bladknoppar. Klassisk mustig smak.
+Rent svart;Assam English blend;20;Ett "småkornigt" te från Assam i nordöstra Indien. Mycket mustig smak.
+Rent svart;Ceylon Dimbula;22;Ett storbladigt te från distriktet Dimbula på Sri Lanka. God kvalité och medelstark smak.
+Rent svart;Ceylon BOP;20;Ett typiskt Ceylonte från Uva-distriktet på Sri Lanka. Småbladigt med kraftig smak. Utmärkt att blanda med mjölk.
+Rent svart;Keemun;20;Klassiskt smakrikt kinesiskt te. Utmärkt till Gotlands kalkhaltiga vatten.
+Rent svart;Kenya;36;Afrikanskt te med en frisk smak.
+Rött;Rooibos vanilj;22;Smaksatt med äkta vanilj.
+Rött;Rooibos Earl Grey;26;Smaksatt med bergamottolja.
+Rött;Rooibos Vilda bär;26;Innehåller blåbär, hallonblad, hallonbitar, blåklint och hjortron.
+Rött;Rooibos Lava;26;Smaksatt med bitar av äpple och kanel samt chili.
+Rött;Rooibos jordgubbsgrädde;26;Smak av jordgubb och grädde.
+Rött;Rooibos;22;Rött te som görs av de översta kvistarna på afrikanska Rooibos-busken. Mild smak. Innehåller antioxidanter.
+Rött;Rooibos Champagne;26;Med smak av vanilj och Champagne. Innehåller jordgubbsbitar, blåklint och björnbärsblad.
+Rött;Rooibos apelsin;22;Smaksatt med apelsin och skalbitar.
+Örtte;Mynta;30;Hela torkade blad.
+Örtte;Kamomill;28;Hela blommor.
+Örtte;Fruktmix;26;Med bl. a fruktbitar, nypon och malva.
+Örtte;Yogi;36;Innehåller enbart kryddor. Kryddnejlika, ingefära, svartpeppar, kanel, kardemumma och myntablad.
+Örtte;Malva;26;Blommans kronblad.
+Örtte;Kvällste;30;Anses rogivande, innehåller bl a kamomill, mynta och rosenblad.
+Örtte;Yerba Mate;18;Uppiggande dryck som framställs ur bladen av järneken, vilka innehåller koffein.
+Rent grönt;Chun Mee;20;Moon Palace - Kraftigt kinesiskt te med lite "rökig" smak.
+Rent grönt;Japansk Bancha;46;Te med naturligt låg teinhalt. Utpräglad "grön smak".
+Rent grönt;Gun Powder;20;Kinesiskt rullat te. Lite kärvt i smaken. Liknar krut därav namnet.
+Rent grönt;Kinesisk Gyokuro;26;Te av japansk typ odlat i Kina. Fyllig, färsk smak.
+Rent grönt;Darjeeling;35;En grön variant av Darjeeling TGFOP.
+Rent grönt;Japansk Fukujyu;50;Smak och doftrik sencha av hög kvalité med naturligt låg teinhalt.
+Smaksatt grönt;Jasmine;20;Med blommor. Serveras ofta som måltidsdryck till kinesisk mat.
+Smaksatt grönt;Kaktus;25;Kinesiskt grönt te som innehåller bl a solros- och kaktusblommor. Smaksatt med kaktusfikon.
+Smaksatt grönt;Japansk körsbär;22;Sencha med smak av kärnfria körsbär.
+Smaksatt grönt;Lime;25;Sencha med fruktbitar och limeskal.
+Smaksatt grönt;Japanskt Genmaicha;40;Te med rostat och puffat ris.
+Smaksatt grönt;Grön pepparmint;20;Gun Powder med pepparmintsolja.
+Smaksatt grönt;Grön Earl Grey;24;Senchate med bergamottolja, rosenblad och ringblomma.
+Smaksatt grönt;Japansk citron;46;Gyokuro-te av högsta kvalité med smak av kallpressad citronolja.
+Smaksatt grönt;Jordgubbsgrädde;25;Sencha-te med jordgubbsbitar, blommor och gräddsmak.
+Smaksatt grönt;Grön persika;26;Sencha-te med fruktbitar och blommor.
