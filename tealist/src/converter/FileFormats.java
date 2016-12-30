@@ -6,7 +6,7 @@ package converter;
  * @author Thomas Ejnefjäll
  */
 public enum FileFormats {
-	TEXT("text"), XML("xml");
+	TEXT("text"), XML("xml"), HTML("html");
 	
 	private String fileFormat;
 	

@@ -15,13 +15,11 @@ import org.w3c.dom.NodeList;
 
 import tealist.Tea;
 
-public class XmlReader implements Reader {
+/**
+ * XmlReader can read a teafile as XML
+ */
+public class XmlReader implements TeaFileReader {
 
-	/**
-	 * Constructs a XmlReader object 
-	 */
-//	public XmlReader() { }
-	
 	/**
 	 * {@inheritDoc}
 	 */

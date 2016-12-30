@@ -1,4 +1,4 @@
-package converter.savers;
+package converter.writers;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -8,8 +8,10 @@ import java.util.List;
 
 import tealist.Tea;
 
-public class TextSaver implements Saver {
-
+/**
+ * TextWriter can write a tea list as plain text
+ */
+public class TextWriter implements TeaFileWriter {
 
 	/**
 	 * {@inheritDoc}
@@ -42,7 +44,5 @@ public class TextSaver implements Saver {
 				bw.close();
 			}
 		}
-
 	}
-
 }

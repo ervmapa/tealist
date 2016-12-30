@@ -1,4 +1,4 @@
-package converter.savers;
+package converter.writers;
 
 import java.io.File;
 import java.util.List;
@@ -17,8 +17,10 @@ import org.w3c.dom.Element;
 
 import tealist.Tea;
 
-
-public class XmlSaver implements Saver {
+/**
+ * Xmlwriter can write a tea list as XML
+ */
+public class XmlWriter implements TeaFileWriter {
 	
 	/** 
 	 * {@inheritDoc}

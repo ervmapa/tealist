@@ -10,7 +10,10 @@ import java.util.List;
 
 import tealist.Tea;
 
-public class TextReader implements Reader {
+/**
+ * TextReader can read a teafile as plain text
+ */
+public class TextReader implements TeaFileReader {
 
 	/**
 	 * {@inheritDoc}
@@ -50,5 +53,4 @@ public class TextReader implements Reader {
 		}		
 		return teaList;
 	}
-
 }

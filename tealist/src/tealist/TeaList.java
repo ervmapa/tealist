@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-import converter.Converter;
+import converter.TeaFileConverter;
 
 /**
  * Handles parsing of options and conversion between different files 
@@ -14,7 +14,7 @@ import converter.Converter;
  */
 public class TeaList 
 {	
-	private Converter converter;
+	private TeaFileConverter converter;
 
 	/**
 	 * Constructs a TeaList
@@ -239,7 +239,7 @@ public class TeaList
 		String outFileFormat = options.get(Options.TO_FILE_FORMAT);
 		String outFileName = options.get(Options.OUTPUT_FILE);
 		
-		converter = new Converter(inFileName, inFileFormat, outFileFormat, outFileName);
+		converter = new TeaFileConverter(inFileName, inFileFormat, outFileFormat, outFileName);
 		converter.convert();
 
 	}	

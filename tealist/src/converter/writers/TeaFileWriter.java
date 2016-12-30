@@ -1,11 +1,15 @@
-package converter.savers;
+package converter.writers;
 
 import java.io.IOException;
 import java.util.List;
 
 import tealist.Tea;
 
-public interface Saver {
+/*
+ * This interface should be implemented by something that 
+ * wants to write tea information to a file
+ */
+public interface TeaFileWriter {
 
 	/**
 	 * Writes the tea information to a file. 
