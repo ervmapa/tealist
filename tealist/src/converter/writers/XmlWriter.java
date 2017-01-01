@@ -18,7 +18,9 @@ import org.w3c.dom.Element;
 import tealist.Tea;
 
 /**
- * Xmlwriter can write a tea list as XML
+ * XmlWriter can write a tea list as XML
+ * 
+ * @author Mats Palm
  */
 public class XmlWriter implements TeaFileWriter {
 	

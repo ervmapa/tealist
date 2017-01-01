@@ -11,7 +11,9 @@ import java.util.List;
 import tealist.Tea;
 
 /**
- * TextReader can read a teafile as plain text
+ * TextReader can read a plain text input file
+ * 
+ * @author Mats Palm
  */
 public class TextReader implements TeaFileReader {
 

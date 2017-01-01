@@ -3,7 +3,7 @@ package converter;
 /**
  * Enumeration for supported file formats.
  * 
- * @author Thomas Ejnefjäll
+ * @author Thomas Ejnefjäll (HTML very limited support added by Mats Palm")
  */
 public enum FileFormats {
 	TEXT("text"), XML("xml"), HTML("html");

@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+
+import converter.Converter;
 import converter.TeaFileConverter;
 
 /**
@@ -14,7 +16,7 @@ import converter.TeaFileConverter;
  */
 public class TeaList 
 {	
-	private TeaFileConverter converter;
+	private Converter converter;
 
 	/**
 	 * Constructs a TeaList

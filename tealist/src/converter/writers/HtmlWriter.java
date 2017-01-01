@@ -3,7 +3,11 @@ import java.util.List;
 import tealist.Tea;
 
 /**
- * HtmlWriter can write a tea list as asn HTML page
+ * HtmlWriter can write a tea list as an HTML page
+ * 
+ * Please note: Writing to file is not supported since this class
+ * is just "proof of concept" that is it works to add new file formats
+ * @author Mats Palm
  */
 public class HtmlWriter implements TeaFileWriter {
 
@@ -26,8 +30,8 @@ public class HtmlWriter implements TeaFileWriter {
 				}
 				System.out.println("</body></html>");
 
-			} else { // this is just "proof of concept" so writing to file is not supported yet :)
-				System.err.println("HTML filetype to file is not supported");
+			} else { 
+				System.err.println("HTML filetype to file is not supported in this version :)");
 			}
 		}
 	}

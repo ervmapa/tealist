@@ -5,9 +5,11 @@ import java.util.List;
 
 import tealist.Tea;
 
-/*
+/**
  * This interface should be implemented by something that 
  * wants to read tea information from a file
+ * 
+ * @author Mats Palm
  */
 public interface TeaFileReader {
 	

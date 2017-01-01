@@ -16,7 +16,9 @@ import org.w3c.dom.NodeList;
 import tealist.Tea;
 
 /**
- * XmlReader can read a teafile as XML
+ * XmlReader can read a XML input file
+ * 
+ * @author Mats Palm
  */
 public class XmlReader implements TeaFileReader {
 

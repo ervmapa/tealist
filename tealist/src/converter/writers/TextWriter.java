@@ -10,6 +10,8 @@ import tealist.Tea;
 
 /**
  * TextWriter can write a tea list as plain text
+ * 
+ * @author Mats Palm
  */
 public class TextWriter implements TeaFileWriter {
 
