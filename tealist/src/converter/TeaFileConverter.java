@@ -2,48 +2,32 @@ package converter;
 
 import converter.readers.TeaFileReader;
 import converter.writers.TeaFileWriter;
+import converter.FileFormats;
 
 /**
  * A TeaFileConverter can convert between different tea file formats
  * 
  * @author Mats Palm
  */
-public class TeaFileConverter implements Converter {
+public abstract class TeaFileConverter  {
 	
-	private ConverterFactory converterFactory;
-	private String inFileName;
-	private String inFileFormat;
-	private String outFileFormat;
-	private String outFileName;
-		
 	/**
-	 * Constructor for TeaFileConverter
+	 * Do the conversion
 	 * 
 	 * @param inFileName Input file name
 	 * @param inFileName Input file format
 	 * @param outFileFormat Output file format
 	 * @param outFileName Output file name
-	 */
-	public TeaFileConverter(String inFileName, String inFileFormat, String outFileFormat, String outFileName) {
+	 * @return If the conversion was succesfull or not
+	 */ 	 
+	public static boolean convert(String inFileName, String inFileFormat, String outFileFormat, String outFileName) {
 		
-		this.inFileName = inFileName;
-		this.inFileFormat = inFileFormat;
-		this.outFileFormat = outFileFormat;
-		this.outFileName = outFileName;
-	}
-	
-	/**
-	 * {@inheritDoc}
-	 */
-	public boolean convert() {
-		try {
-			converterFactory = new ConverterFactory();
-			TeaFileReader reader = converterFactory.getReader(inFileFormat);
-			TeaFileWriter writer = converterFactory.getWriter(outFileFormat);
-			writer.writeFile(reader.readFile(inFileName), outFileName);
+		TeaFileReader reader = FileFormats.getReader(inFileFormat);
+		TeaFileWriter writer = FileFormats.getWriter(outFileFormat);
 			
-		}
-		catch (Exception e) {
+		try {
+			writer.writeFile(reader.readFile(inFileName), outFileName);
+		} catch (Exception e) {
 			System.err.println("A fault occured during conversion: " + e);
 			return false;
 		}

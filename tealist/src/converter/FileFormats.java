@@ -1,23 +1,94 @@
 package converter;
 
+import converter.readers.TeaFileReader;
+import converter.readers.TextReader;
+import converter.readers.XmlReader;
+import converter.writers.TeaFileWriter;
+import converter.writers.TextWriter;
+import converter.writers.XmlWriter;
 /**
  * Enumeration for supported file formats.
  * 
- * @author Thomas Ejnefjäll (HTML very limited support added by Mats Palm")
+ * The enum also has logic also ("factory methods") to return TeaFileReaders and TeaFileWriter
+ * for a specified file format.
+ * 
+ * @author Thomas Ejnefjäll updated by Mats Palm
  */
 public enum FileFormats {
-	TEXT("text"), XML("xml"), HTML("html");
+	TEXT("text", new TextReader(), new TextWriter(), "text - Text (txt) file where fields are separated with ;"), 
+	XML("xml", new XmlReader(), new XmlWriter(), "xml - Xml (xml) file");
 	
 	private String fileFormat;
+	private TeaFileReader reader;
+	private TeaFileWriter writer;
+	private String description;
 	
 	/**
 	 * Private constructor only for the enumeration itself
 	 * 
 	 * @param fileFormat Name of the file format
+	 * @param reader A Writer object associated with the file format
+	 * @param writer A Writer object associated with the file format
+	 * @param description The description associated with the file format
 	 */
-	private FileFormats(String fileFormat) {
+	private FileFormats(String fileFormat, TeaFileReader reader, TeaFileWriter writer, String description) {
 		this.fileFormat = fileFormat;
+		this.reader = reader;
+		this.writer = writer;
+		this.description = description;
 	}
+	
+	/**
+	 * Iterate through the file formats that matches the 
+	 * input file format. Return a reader object for the
+	 * specific input file format
+	 * 
+	 * @param fileFormat Name of the input file format
+	 * @return The reader for the specified file format
+	 */
+	public static TeaFileReader getReader(String fileFormat) {
+		for(FileFormats ff : FileFormats.values()) {
+			if(ff.equals(fileFormat)) {
+				return ff.reader;
+			}
+		}
+		// Default. Should never happen :)
+		return new TextReader();
+	}
+
+	/**
+	 * Iterate through the file formats that matches the 
+	 * input file format. Return a writer object for the
+	 * specific output file format
+
+	 * @param fileFormat Name of the output file format
+	 * @return The writer for the specified file format
+	 */
+	public static TeaFileWriter getWriter(String fileFormat) {
+		
+		for(FileFormats ff : FileFormats.values()) {
+			if(ff.equals(fileFormat)) {
+				return ff.writer;
+			}
+		}
+		// Default. Should never happen :)
+		return new TextWriter();
+	}
+	
+	/**
+	 * Iterate through the file formats and build a 
+	 * string to show a complete description for all
+	 * file formats
+	 * @return Description string for all file formats
+	 */
+	public static String getSupportedformats() {
+		String description = "";
+		for(FileFormats ff : FileFormats.values()) {
+			description += ff.description +"\n";
+			}
+		return description;
+	}	
+	
 	/**
 	 * Checks if the current file format is equal to another
 	 * 

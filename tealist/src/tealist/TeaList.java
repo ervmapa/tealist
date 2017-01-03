@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import converter.Converter;
+import converter.FileFormats;
 import converter.TeaFileConverter;
 
 /**
@@ -16,8 +16,6 @@ import converter.TeaFileConverter;
  */
 public class TeaList 
 {	
-	private Converter converter;
-
 	/**
 	 * Constructs a TeaList
 	 */
@@ -214,8 +212,7 @@ public class TeaList
 	private void showFileFormats()
 	{
 		System.out.println("TeaList 0.1 supports the following file formats");
-		System.out.println("text - Text (txt) file where fields are separated with ;");
-		System.out.println("xml - Xml (xml) file");
+		System.out.println(FileFormats.getSupportedformats());
 	}
 	/**
 	 * Prints any errors to standard out.
@@ -241,8 +238,7 @@ public class TeaList
 		String outFileFormat = options.get(Options.TO_FILE_FORMAT);
 		String outFileName = options.get(Options.OUTPUT_FILE);
 		
-		converter = new TeaFileConverter(inFileName, inFileFormat, outFileFormat, outFileName);
-		converter.convert();
+		TeaFileConverter.convert(inFileName, inFileFormat, outFileFormat, outFileName);
 
 	}	
 }
