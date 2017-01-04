@@ -17,10 +17,6 @@ import converter.TeaFileConverter;
 public class TeaList 
 {	
 	/**
-	 * Constructs a TeaList
-	 */
-	public TeaList() { }
-	/**
 	 * Process a request containing one or more options. For information
 	 * on valid options see the readme file.
 	 * 
@@ -228,9 +224,8 @@ public class TeaList
 	 * Converts tea data from one file to an other. 
 	 * 
 	 * @param options any options given for the conversion
-	 * @throws Exception if there was an error while converting
 	 */
-	private void convertFile(Map<Options, String> options) throws Exception 
+	private void convertFile(Map<Options, String> options) 
 	{
 				
 		String inFileName = options.get(Options.INPUT_FILE);

@@ -10,7 +10,7 @@ import converter.writers.XmlWriter;
  * Enumeration for supported file formats.
  * 
  * The enum also has logic also ("factory methods") to return TeaFileReaders and TeaFileWriter
- * for a specified file format.
+ * and description for a specified file format.
  * 
  * @author Thomas Ejnefjäll updated by Mats Palm
  */
